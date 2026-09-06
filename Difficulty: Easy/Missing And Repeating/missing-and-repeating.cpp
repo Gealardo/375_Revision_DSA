@@ -9,7 +9,10 @@ class Solution {
            else temp[arr[i]-1]=- temp[arr[i]-1];
        }
        for(int i=0;i<n;i++){
-           if(temp[i]>0) ans.push_back(i+1);
+           if(temp[i]>0){
+             ans.push_back(i+1);
+             break;
+           }
        }
        return ans;    
     }
