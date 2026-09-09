@@ -26,3 +26,29 @@ class Solution {
       return water;    
     }
 };
+
+// more space optimization (do not need of vector for storing right max).
+class Solution {
+  public:
+    int maxWater(vector<int> &arr) {
+        int n=arr.size();
+        
+        vector<int>left_max(n);
+        left_max[0]=0;
+        for(int i=1;i<n;i++){
+            left_max[i] = max(arr[i-1] , left_max[i-1]);
+        }
+      
+       int right_max=0;
+        // calculate rain water
+        int water = 0;
+        for(int i=n-1;i>=0;i--){
+            int h=min(left_max[i],right_max);
+            right_max = max(right_max,arr[i]);
+            if(h-arr[i]>=0){
+                water += h-arr[i];
+            }
+        }
+      return water;    
+    }
+};
