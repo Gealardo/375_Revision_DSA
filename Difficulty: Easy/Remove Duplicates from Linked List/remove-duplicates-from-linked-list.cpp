@@ -14,7 +14,6 @@ class Solution {
         if(curr==head){
             Node* temp=curr;
             head=front;
-            prev=curr;
             curr=front;
             front=front->next;
             delete(temp);
@@ -30,8 +29,8 @@ class Solution {
     Node* removeDuplicates(Node* head) {
         Node* prev=NULL;
         Node* curr=head;
-        unordered_map<int,int>mp;
         if(curr==NULL || curr->next==NULL) return head;
+        unordered_map<int,int>mp;
         while(curr!=NULL){
             Node* front = curr->next;
             if(mp.find(curr->data)!=mp.end()){
