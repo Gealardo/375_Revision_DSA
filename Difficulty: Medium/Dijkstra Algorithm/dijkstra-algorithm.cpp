@@ -10,34 +10,29 @@ class Solution {
           adj[u].push_back({v,wt});
           adj[v].push_back({u,wt});
       }
-      set<pair<int,int>>s;
+      
+      priority_queue<pair<int,int>,vector<pair<int,int>>,greater<pair<int,int>>>pq;
+      // pq=> {wt,node}; sort on the basis of wt;
       vector<int>d(V,INT_MAX);
       d[src]=0;
-      s.insert({0,src});
-      while(!s.empty()){
-          int node = s.begin()->second;
-          int wt  = s.begin()->first;
-          s.erase(s.begin());
-          if(wt > d[node]) continue;
-          for(auto &nighbor : adj[node]){
-              //have to go from node to its nighbor
-              // src to node -> wt 
-              // now src to nighbor -> d[node] + nighbor_wt || d[nighbor].
-              int nighbor_node = nighbor.first;
-              int nighbor_wt   = nighbor.second;
-              if(wt+nighbor_wt < d[nighbor_node]){
-                  // if d[nighbor_node] was alredy in set the erase it
-                  if(d[nighbor_node]!=INT_MAX) s.erase({d[nighbor_node],nighbor_node}); 
-                  
-                  d[nighbor_node] = wt+nighbor_wt;
-                  s.insert({d[nighbor_node],nighbor_node});
+      pq.push({0, src});
+      while(!pq.empty()){
+          int node = pq.top().second;
+          int wt = pq.top().first;
+          pq.pop();
+          
+          for(auto &it : adj[node]){
+              int nighbor = it.first;
+              int nighbor_wt = it.second;
+              if( wt + nighbor_wt < d[nighbor]){
+                  d[nighbor] = wt+nighbor_wt;
+                  pq.push({d[nighbor],nighbor});
               }
           }
       }
       return d;
     }
 };
-
 // version 2 by using set 
 // Djisktra's Algorithm only applicable on +ve wt graph
 class Solution {
