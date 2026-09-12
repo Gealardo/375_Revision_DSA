@@ -18,3 +18,24 @@ class Solution {
       return ans;
     }
 };
+
+// if we move from 0 ->n , we don't need to rev
+class Solution {
+  public:
+    void solve(int i,int n,string sub,vector<string>&ans,string &s){
+        if(i>=n){
+            ans.push_back(sub);
+            return;
+        }
+        solve(i+1,n,sub+s[i],ans,s);
+        solve(i+1,n,sub,ans,s);
+    }
+    vector<string> powerSet(string &s) {
+      int n=s.length();
+      vector<string>ans;
+      string sub="";
+      solve(0,n,sub,ans,s);
+      sort(ans.begin(),ans.end());
+      return ans;
+    }
+};
