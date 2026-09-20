@@ -10,3 +10,4 @@ class Solution {
        return false; 
     }
 };
+// solve XOR BINARY SEARCH ques
