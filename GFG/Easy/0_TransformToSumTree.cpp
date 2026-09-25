@@ -34,6 +34,6 @@ class Solution {
     }
     void toSumTree(Node *root) {
         sum(root);
-        return;
+      return;
     }
 };
