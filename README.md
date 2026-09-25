@@ -10,8 +10,8 @@ Welcome to my DSA solutions portfolio! This repository contains my solved proble
 | Platform | Total Solved | Easy | Medium | Hard |
 | --- | --- | --- | --- | --- |
 | LeetCode | 2 | 0 | 1 | 1 |
-| GeeksforGeeks | 5 | 2 | 2 | 1 |
-| **Total** | **7** | **2** | **3** | **2** |
+| GeeksforGeeks | 6 | 2 | 3 | 1 |
+| **Total** | **8** | **2** | **4** | **2** |
 
 ## Solved Problems
 
@@ -22,6 +22,7 @@ Welcome to my DSA solutions portfolio! This repository contains my solved proble
 | 3 | [Perfect Binary Tree](https://practice.geeksforgeeks.org/problems/perfect-binary-tree/1) | GeeksforGeeks | Easy | C_CPP | [Code](./GFG/Easy/0_PerfectBinaryTree.cpp) |
 | 4 | [Transform to Sum Tree](https://practice.geeksforgeeks.org/problems/transform-to-sum-tree/1) | GeeksforGeeks | Easy | C_CPP | [Code](./GFG/Easy/0_TransformToSumTree.cpp) |
 | 5 | [Diagonal Tree Traversal](https://practice.geeksforgeeks.org/problems/diagonal-traversal-of-binary-tree/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_DiagonalTreeTraversal.cpp) |
-| 6 | [Isomorphic Trees](https://practice.geeksforgeeks.org/problems/check-if-tree-is-isomorphic/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_IsomorphicTrees.cpp) |
-| 7 | [Binary Tree to DLL](https://practice.geeksforgeeks.org/problems/binary-tree-to-dll/1) | GeeksforGeeks | Hard | C_CPP | [Code](./GFG/Hard/0_BinaryTreeToDLL.cpp) |
+| 6 | [Graph is Tree or Not](https://practice.geeksforgeeks.org/problems/is-it-a-tree/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_GraphIsTreeOrNot.cpp) |
+| 7 | [Isomorphic Trees](https://practice.geeksforgeeks.org/problems/check-if-tree-is-isomorphic/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_IsomorphicTrees.cpp) |
+| 8 | [Binary Tree to DLL](https://practice.geeksforgeeks.org/problems/binary-tree-to-dll/1) | GeeksforGeeks | Hard | C_CPP | [Code](./GFG/Hard/0_BinaryTreeToDLL.cpp) |
 <!-- COMMITDSA_END -->
