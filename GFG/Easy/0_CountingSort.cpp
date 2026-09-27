@@ -18,9 +18,8 @@ class Solution {
       }
       string ss="";
       for(int i=0;i<26;i++){
-        int f = arr[i];
-        for(int j=0;j<f;j++){
-            ss += char(i+'a');
+        if(arr[i]>0){
+           ss+=string(arr[i],i+'a');   
         }
       }
       return ss;
