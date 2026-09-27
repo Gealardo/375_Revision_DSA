@@ -10,8 +10,8 @@ Welcome to my DSA solutions portfolio! This repository contains my solved proble
 | Platform | Total Solved | Easy | Medium | Hard |
 | --- | --- | --- | --- | --- |
 | LeetCode | 2 | 0 | 1 | 1 |
-| GeeksforGeeks | 13 | 4 | 7 | 2 |
-| **Total** | **15** | **4** | **8** | **3** |
+| GeeksforGeeks | 14 | 4 | 8 | 2 |
+| **Total** | **16** | **4** | **9** | **3** |
 
 ## Solved Problems
 
@@ -30,6 +30,7 @@ Welcome to my DSA solutions portfolio! This repository contains my solved proble
 | 11 | [Kth Smallest](https://practice.geeksforgeeks.org/problems/kth-smallest-element5635/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_KthSmallest.cpp) |
 | 12 | [Merge Two BSTs](https://practice.geeksforgeeks.org/problems/merge-two-bst-s/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_MergeTwoBSTs.cpp) |
 | 13 | [Next Greater in Circular Array](https://practice.geeksforgeeks.org/problems/next-greater-element/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_NextGreaterInCircularArray.cpp) |
-| 14 | [Binary Tree to DLL](https://practice.geeksforgeeks.org/problems/binary-tree-to-dll/1) | GeeksforGeeks | Hard | C_CPP | [Code](./GFG/Hard/0_BinaryTreeToDLL.cpp) |
-| 15 | [Min Distance Between Two in Binary Tree](https://practice.geeksforgeeks.org/problems/min-distance-between-two-given-nodes-of-a-binary-tree/1) | GeeksforGeeks | Hard | C_CPP | [Code](./GFG/Hard/0_MinDistanceBetweenTwoInBinaryTree.cpp) |
+| 14 | [Tree Boundary Traversal](https://practice.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_TreeBoundaryTraversal.cpp) |
+| 15 | [Binary Tree to DLL](https://practice.geeksforgeeks.org/problems/binary-tree-to-dll/1) | GeeksforGeeks | Hard | C_CPP | [Code](./GFG/Hard/0_BinaryTreeToDLL.cpp) |
+| 16 | [Min Distance Between Two in Binary Tree](https://practice.geeksforgeeks.org/problems/min-distance-between-two-given-nodes-of-a-binary-tree/1) | GeeksforGeeks | Hard | C_CPP | [Code](./GFG/Hard/0_MinDistanceBetweenTwoInBinaryTree.cpp) |
 <!-- COMMITDSA_END -->
