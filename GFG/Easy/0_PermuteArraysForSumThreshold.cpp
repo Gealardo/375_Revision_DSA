@@ -10,6 +10,7 @@ using namespace std;
 class Solution {
   public:
     bool isPossible(int k, vector<int> &a, vector<int> &b) {
+        // O(nlogn + mlogm + max(m,n)) = xlongx;
         int n=a.size();
         int m=b.size();
         sort(a.begin(),a.end());
