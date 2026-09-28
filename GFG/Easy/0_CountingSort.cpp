@@ -3,7 +3,7 @@
  * Platform     : GFG
  * Difficulty   : Easy
  */
-
+// take storage the freq
 #include <bits/stdc++.h>
 using namespace std;
 
