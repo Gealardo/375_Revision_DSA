@@ -10,8 +10,8 @@ Welcome to my DSA solutions portfolio! This repository contains my solved proble
 | Platform | Total Solved | Easy | Medium | Hard |
 | --- | --- | --- | --- | --- |
 | LeetCode | 7 | 2 | 4 | 1 |
-| GeeksforGeeks | 16 | 6 | 8 | 2 |
-| **Total** | **23** | **8** | **12** | **3** |
+| GeeksforGeeks | 17 | 6 | 9 | 2 |
+| **Total** | **24** | **8** | **13** | **3** |
 
 ## Solved Problems
 
@@ -34,10 +34,11 @@ Welcome to my DSA solutions portfolio! This repository contains my solved proble
 | 15 | [Graph is Tree or Not](https://practice.geeksforgeeks.org/problems/is-it-a-tree/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_GraphIsTreeOrNot.cpp) |
 | 16 | [Isomorphic Trees](https://practice.geeksforgeeks.org/problems/check-if-tree-is-isomorphic/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_IsomorphicTrees.cpp) |
 | 17 | [k Largest Elements](https://practice.geeksforgeeks.org/problems/k-largest-elements4206/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_KLargestElements.cpp) |
-| 18 | [Kth Smallest](https://practice.geeksforgeeks.org/problems/kth-smallest-element5635/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_KthSmallest.cpp) |
-| 19 | [Merge Two BSTs](https://practice.geeksforgeeks.org/problems/merge-two-bst-s/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_MergeTwoBSTs.cpp) |
-| 20 | [Next Greater in Circular Array](https://practice.geeksforgeeks.org/problems/next-greater-element/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_NextGreaterInCircularArray.cpp) |
-| 21 | [Tree Boundary Traversal](https://practice.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_TreeBoundaryTraversal.cpp) |
-| 22 | [Binary Tree to DLL](https://practice.geeksforgeeks.org/problems/binary-tree-to-dll/1) | GeeksforGeeks | Hard | C_CPP | [Code](./GFG/Hard/0_BinaryTreeToDLL.cpp) |
-| 23 | [Min Distance Between Two in Binary Tree](https://practice.geeksforgeeks.org/problems/min-distance-between-two-given-nodes-of-a-binary-tree/1) | GeeksforGeeks | Hard | C_CPP | [Code](./GFG/Hard/0_MinDistanceBetweenTwoInBinaryTree.cpp) |
+| 18 | [Knapsack with Duplicate Items](https://practice.geeksforgeeks.org/problems/knapsack-with-duplicate-items4201/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_KnapsackWithDuplicateItems.cpp) |
+| 19 | [Kth Smallest](https://practice.geeksforgeeks.org/problems/kth-smallest-element5635/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_KthSmallest.cpp) |
+| 20 | [Merge Two BSTs](https://practice.geeksforgeeks.org/problems/merge-two-bst-s/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_MergeTwoBSTs.cpp) |
+| 21 | [Next Greater in Circular Array](https://practice.geeksforgeeks.org/problems/next-greater-element/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_NextGreaterInCircularArray.cpp) |
+| 22 | [Tree Boundary Traversal](https://practice.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_TreeBoundaryTraversal.cpp) |
+| 23 | [Binary Tree to DLL](https://practice.geeksforgeeks.org/problems/binary-tree-to-dll/1) | GeeksforGeeks | Hard | C_CPP | [Code](./GFG/Hard/0_BinaryTreeToDLL.cpp) |
+| 24 | [Min Distance Between Two in Binary Tree](https://practice.geeksforgeeks.org/problems/min-distance-between-two-given-nodes-of-a-binary-tree/1) | GeeksforGeeks | Hard | C_CPP | [Code](./GFG/Hard/0_MinDistanceBetweenTwoInBinaryTree.cpp) |
 <!-- COMMITDSA_END -->
