@@ -20,7 +20,7 @@ public:
         while(h<n){
           mp[s[h]]++;
           mfreq = max(mfreq , mp[s[h]]);
-          while((h-l+1) - mfreq >k){
+          if((h-l+1) - mfreq >k){
                mp[s[l]]--;
                l++;
           }
