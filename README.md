@@ -7,11 +7,11 @@ Welcome to my DSA solutions portfolio! This repository contains my solved proble
 
 ## Statistics
 
-| Platform | Total Solved | Easy | Medium | Hard |
-| --- | --- | --- | --- | --- |
-| LeetCode | 7 | 2 | 4 | 1 |
-| GeeksforGeeks | 17 | 6 | 9 | 2 |
-| **Total** | **24** | **8** | **13** | **3** |
+| Platform | Total Solved | Easy | Medium | Hard | Basic/School |
+| --- | --- | --- | --- | --- | --- |
+| LeetCode | 7 | 2 | 4 | 1 | - |
+| GeeksforGeeks | 18 | 6 | 9 | 2 | 1 |
+| **Total** | **25** | **8** | **13** | **3** | **1** |
 
 ## Solved Problems
 
@@ -41,4 +41,5 @@ Welcome to my DSA solutions portfolio! This repository contains my solved proble
 | 22 | [Tree Boundary Traversal](https://practice.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_TreeBoundaryTraversal.cpp) |
 | 23 | [Binary Tree to DLL](https://practice.geeksforgeeks.org/problems/binary-tree-to-dll/1) | GeeksforGeeks | Hard | C_CPP | [Code](./GFG/Hard/0_BinaryTreeToDLL.cpp) |
 | 24 | [Min Distance Between Two in Binary Tree](https://practice.geeksforgeeks.org/problems/min-distance-between-two-given-nodes-of-a-binary-tree/1) | GeeksforGeeks | Hard | C_CPP | [Code](./GFG/Hard/0_MinDistanceBetweenTwoInBinaryTree.cpp) |
+| 25 | [Reverse Array in Groups](https://practice.geeksforgeeks.org/problems/reverse-array-in-groups0255/1) | GeeksforGeeks | Basic | C_CPP | [Code](./GFG/Basic/0_ReverseArrayInGroups.cpp) |
 <!-- COMMITDSA_END -->
