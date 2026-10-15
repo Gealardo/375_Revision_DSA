@@ -18,3 +18,9 @@ class Solution {
        return s;
     }
 };
+/*
+  value*frequency
+  arr[i]*(left_*right_)
+  left=i+1;
+  right=n-1;
+*/
