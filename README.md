@@ -10,8 +10,8 @@ Welcome to my DSA solutions portfolio! This repository contains my solved proble
 | Platform | Total Solved | Easy | Medium | Hard | Basic/School |
 | --- | --- | --- | --- | --- | --- |
 | LeetCode | 7 | 2 | 4 | 1 | - |
-| GeeksforGeeks | 18 | 6 | 9 | 2 | 1 |
-| **Total** | **25** | **8** | **13** | **3** | **1** |
+| GeeksforGeeks | 19 | 6 | 10 | 2 | 1 |
+| **Total** | **26** | **8** | **14** | **3** | **1** |
 
 ## Solved Problems
 
@@ -38,8 +38,9 @@ Welcome to my DSA solutions portfolio! This repository contains my solved proble
 | 19 | [Kth Smallest](https://practice.geeksforgeeks.org/problems/kth-smallest-element5635/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_KthSmallest.cpp) |
 | 20 | [Merge Two BSTs](https://practice.geeksforgeeks.org/problems/merge-two-bst-s/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_MergeTwoBSTs.cpp) |
 | 21 | [Next Greater in Circular Array](https://practice.geeksforgeeks.org/problems/next-greater-element/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_NextGreaterInCircularArray.cpp) |
-| 22 | [Tree Boundary Traversal](https://practice.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_TreeBoundaryTraversal.cpp) |
-| 23 | [Binary Tree to DLL](https://practice.geeksforgeeks.org/problems/binary-tree-to-dll/1) | GeeksforGeeks | Hard | C_CPP | [Code](./GFG/Hard/0_BinaryTreeToDLL.cpp) |
-| 24 | [Min Distance Between Two in Binary Tree](https://practice.geeksforgeeks.org/problems/min-distance-between-two-given-nodes-of-a-binary-tree/1) | GeeksforGeeks | Hard | C_CPP | [Code](./GFG/Hard/0_MinDistanceBetweenTwoInBinaryTree.cpp) |
-| 25 | [Reverse Array in Groups](https://practice.geeksforgeeks.org/problems/reverse-array-in-groups0255/1) | GeeksforGeeks | Basic | C_CPP | [Code](./GFG/Basic/0_ReverseArrayInGroups.cpp) |
+| 22 | [Rotate Array](https://practice.geeksforgeeks.org/problems/rotate-array-by-n-elements-1587115621/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_RotateArray.cpp) |
+| 23 | [Tree Boundary Traversal](https://practice.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_TreeBoundaryTraversal.cpp) |
+| 24 | [Binary Tree to DLL](https://practice.geeksforgeeks.org/problems/binary-tree-to-dll/1) | GeeksforGeeks | Hard | C_CPP | [Code](./GFG/Hard/0_BinaryTreeToDLL.cpp) |
+| 25 | [Min Distance Between Two in Binary Tree](https://practice.geeksforgeeks.org/problems/min-distance-between-two-given-nodes-of-a-binary-tree/1) | GeeksforGeeks | Hard | C_CPP | [Code](./GFG/Hard/0_MinDistanceBetweenTwoInBinaryTree.cpp) |
+| 26 | [Reverse Array in Groups](https://practice.geeksforgeeks.org/problems/reverse-array-in-groups0255/1) | GeeksforGeeks | Basic | C_CPP | [Code](./GFG/Basic/0_ReverseArrayInGroups.cpp) |
 <!-- COMMITDSA_END -->
