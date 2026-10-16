@@ -13,12 +13,9 @@ class Solution {
         int n = arr.size();
         int maxi = 0;
         int ans=INT_MIN;
-        int h=0;
-        while(h<n){
-            maxi+=arr[h];
+        for(int i=0;i<n;i++){
+            maxi = max(arr[i],maxi+arr[i]);
             ans = max(ans,maxi);
-            if(maxi<0) maxi=0;
-            h++;
         }
         return ans;
     }
