@@ -10,8 +10,8 @@ Welcome to my DSA solutions portfolio! This repository contains my solved proble
 | Platform | Total Solved | Easy | Medium | Hard | Basic/School |
 | --- | --- | --- | --- | --- | --- |
 | LeetCode | 7 | 2 | 4 | 1 | - |
-| GeeksforGeeks | 30 | 10 | 16 | 3 | 1 |
-| **Total** | **37** | **12** | **20** | **4** | **1** |
+| GeeksforGeeks | 31 | 10 | 16 | 4 | 1 |
+| **Total** | **38** | **12** | **20** | **5** | **1** |
 
 ## Solved Problems
 
@@ -52,6 +52,7 @@ Welcome to my DSA solutions portfolio! This repository contains my solved proble
 | 33 | [Tree Boundary Traversal](https://practice.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_TreeBoundaryTraversal.cpp) |
 | 34 | [Binary Tree to DLL](https://practice.geeksforgeeks.org/problems/binary-tree-to-dll/1) | GeeksforGeeks | Hard | C_CPP | [Code](./GFG/Hard/0_BinaryTreeToDLL.cpp) |
 | 35 | [Clone List with Next and Random](https://practice.geeksforgeeks.org/problems/clone-a-linked-list-with-next-and-random-pointer/1) | GeeksforGeeks | Hard | C_CPP | [Code](./GFG/Hard/0_CloneListWithNextAndRandom.cpp) |
-| 36 | [Min Distance Between Two in Binary Tree](https://practice.geeksforgeeks.org/problems/min-distance-between-two-given-nodes-of-a-binary-tree/1) | GeeksforGeeks | Hard | C_CPP | [Code](./GFG/Hard/0_MinDistanceBetweenTwoInBinaryTree.cpp) |
-| 37 | [Reverse Array in Groups](https://practice.geeksforgeeks.org/problems/reverse-array-in-groups0255/1) | GeeksforGeeks | Basic | C_CPP | [Code](./GFG/Basic/0_ReverseArrayInGroups.cpp) |
+| 36 | [Linked List Group Reverse](https://practice.geeksforgeeks.org/problems/reverse-a-linked-list-in-groups-of-given-size/1) | GeeksforGeeks | Hard | C_CPP | [Code](./GFG/Hard/0_LinkedListGroupReverse.cpp) |
+| 37 | [Min Distance Between Two in Binary Tree](https://practice.geeksforgeeks.org/problems/min-distance-between-two-given-nodes-of-a-binary-tree/1) | GeeksforGeeks | Hard | C_CPP | [Code](./GFG/Hard/0_MinDistanceBetweenTwoInBinaryTree.cpp) |
+| 38 | [Reverse Array in Groups](https://practice.geeksforgeeks.org/problems/reverse-array-in-groups0255/1) | GeeksforGeeks | Basic | C_CPP | [Code](./GFG/Basic/0_ReverseArrayInGroups.cpp) |
 <!-- COMMITDSA_END -->
