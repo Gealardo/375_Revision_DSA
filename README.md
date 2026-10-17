@@ -10,8 +10,8 @@ Welcome to my DSA solutions portfolio! This repository contains my solved proble
 | Platform | Total Solved | Easy | Medium | Hard | Basic/School |
 | --- | --- | --- | --- | --- | --- |
 | LeetCode | 7 | 2 | 4 | 1 | - |
-| GeeksforGeeks | 32 | 11 | 16 | 4 | 1 |
-| **Total** | **39** | **13** | **20** | **5** | **1** |
+| GeeksforGeeks | 33 | 11 | 17 | 4 | 1 |
+| **Total** | **40** | **13** | **21** | **5** | **1** |
 
 ## Solved Problems
 
@@ -49,11 +49,12 @@ Welcome to my DSA solutions portfolio! This repository contains my solved proble
 | 30 | [Minimize the Heights](https://practice.geeksforgeeks.org/problems/minimize-the-heights3351/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_MinimizeTheHeights.cpp) |
 | 31 | [Next Greater in Circular Array](https://practice.geeksforgeeks.org/problems/next-greater-element/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_NextGreaterInCircularArray.cpp) |
 | 32 | [Rotate Array](https://practice.geeksforgeeks.org/problems/rotate-array-by-n-elements-1587115621/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_RotateArray.cpp) |
-| 33 | [Sum of Subarrays](https://practice.geeksforgeeks.org/problems/sum-of-subarrays2229/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_SumOfSubarrays.cpp) |
-| 34 | [Tree Boundary Traversal](https://practice.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_TreeBoundaryTraversal.cpp) |
-| 35 | [Binary Tree to DLL](https://practice.geeksforgeeks.org/problems/binary-tree-to-dll/1) | GeeksforGeeks | Hard | C_CPP | [Code](./GFG/Hard/0_BinaryTreeToDLL.cpp) |
-| 36 | [Clone List with Next and Random](https://practice.geeksforgeeks.org/problems/clone-a-linked-list-with-next-and-random-pointer/1) | GeeksforGeeks | Hard | C_CPP | [Code](./GFG/Hard/0_CloneListWithNextAndRandom.cpp) |
-| 37 | [Linked List Group Reverse](https://practice.geeksforgeeks.org/problems/reverse-a-linked-list-in-groups-of-given-size/1) | GeeksforGeeks | Hard | C_CPP | [Code](./GFG/Hard/0_LinkedListGroupReverse.cpp) |
-| 38 | [Min Distance Between Two in Binary Tree](https://practice.geeksforgeeks.org/problems/min-distance-between-two-given-nodes-of-a-binary-tree/1) | GeeksforGeeks | Hard | C_CPP | [Code](./GFG/Hard/0_MinDistanceBetweenTwoInBinaryTree.cpp) |
-| 39 | [Reverse Array in Groups](https://practice.geeksforgeeks.org/problems/reverse-array-in-groups0255/1) | GeeksforGeeks | Basic | C_CPP | [Code](./GFG/Basic/0_ReverseArrayInGroups.cpp) |
+| 33 | [Subarrays Product Less than K](https://practice.geeksforgeeks.org/problems/count-the-subarrays-having-product-less-than-k1708/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_SubarraysProductLessThanK.cpp) |
+| 34 | [Sum of Subarrays](https://practice.geeksforgeeks.org/problems/sum-of-subarrays2229/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_SumOfSubarrays.cpp) |
+| 35 | [Tree Boundary Traversal](https://practice.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_TreeBoundaryTraversal.cpp) |
+| 36 | [Binary Tree to DLL](https://practice.geeksforgeeks.org/problems/binary-tree-to-dll/1) | GeeksforGeeks | Hard | C_CPP | [Code](./GFG/Hard/0_BinaryTreeToDLL.cpp) |
+| 37 | [Clone List with Next and Random](https://practice.geeksforgeeks.org/problems/clone-a-linked-list-with-next-and-random-pointer/1) | GeeksforGeeks | Hard | C_CPP | [Code](./GFG/Hard/0_CloneListWithNextAndRandom.cpp) |
+| 38 | [Linked List Group Reverse](https://practice.geeksforgeeks.org/problems/reverse-a-linked-list-in-groups-of-given-size/1) | GeeksforGeeks | Hard | C_CPP | [Code](./GFG/Hard/0_LinkedListGroupReverse.cpp) |
+| 39 | [Min Distance Between Two in Binary Tree](https://practice.geeksforgeeks.org/problems/min-distance-between-two-given-nodes-of-a-binary-tree/1) | GeeksforGeeks | Hard | C_CPP | [Code](./GFG/Hard/0_MinDistanceBetweenTwoInBinaryTree.cpp) |
+| 40 | [Reverse Array in Groups](https://practice.geeksforgeeks.org/problems/reverse-array-in-groups0255/1) | GeeksforGeeks | Basic | C_CPP | [Code](./GFG/Basic/0_ReverseArrayInGroups.cpp) |
 <!-- COMMITDSA_END -->
