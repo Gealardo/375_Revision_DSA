@@ -9,6 +9,15 @@ using namespace std;
 
 class Solution {
 public:
+    void dfs(int node,vector<bool>&visited,vector<vector<int>>&adj,stack<int>&st){
+        visited[node] = true;
+         for(auto &nighbor:adj[node]){
+            if(!visited[nighbor]){
+                dfs(nighbor,visited,adj,st);
+            }
+         }
+        st.push(node);
+    }
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
         int n = prerequisites.size();
         vector<vector<int>>adj(numCourses);
@@ -17,26 +26,24 @@ public:
             int v = prerequisites[i][1];
             adj[v].push_back(u);
         }
-        vector<int>indegre(numCourses,0);
+        stack<int>st;
+        vector<bool>visited(numCourses,false);
         for(int i=0;i<numCourses;i++){
-            for(auto &x:adj[i]){
-                indegre[x]++;
+            if(!visited[i]){
+                dfs(i,visited,adj,st);
             }
         }
-        queue<int>q;
-        for(int i=0;i<numCourses;i++){
-            if(indegre[i]==0) q.push(i);
+        vector<int>pos(numCourses,0);int i=0;
+        while(!st.empty()){
+            pos[st.top()] = i;
+            i++;
+            st.pop();
         }
-        int count = 0; 
-        while(!q.empty()){
-            int node = q.front();
-            q.pop();
-            count++;
-            for(auto &c : adj[node]){
-                indegre[c]--;
-                if(indegre[c]==0) q.push(c);
+        for(int u=0;u<numCourses;u++){
+            for(auto &v : adj[u]){
+                if(pos[u] >= pos[v]) return false;
             }
         }
-        return count == numCourses;
+        return true;
     }
 };
