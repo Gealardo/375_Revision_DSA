@@ -9,38 +9,39 @@ using namespace std;
 
 class Solution {
   public:
-    int spanningTree(int V, vector<vector<int>>& edges) {
-       //by using prim's algo
-       int E = edges.size();
-       vector<vector<pair<int,int>>>adj(V);
-       for(int i=0;i<E;i++){
-           int u = edges[i][0];
-           int v =  edges[i][1];
-           int wt = edges[i][2];
-           adj[u].push_back({v,wt});
-           adj[v].push_back({u,wt});
-       }
-              vector<bool>inMST(V,false);
-              priority_queue<pair<int,int>,vector<pair<int,int>>,greater<pair<int,int>>>pq;
-              int Cost=0;
-              pq.push({0,0});
-              while(!pq.empty()){
-               int u = pq.top().second;
-               int wt = pq.top().first;
-               pq.pop();
-               if(!inMST[u]){
-                   inMST[u] = true;
-                   Cost+=wt;
-                   for(auto &it : adj[u]){
-                       int v = it.first;
-                       int w = it.second;
-                       if(!inMST[v]){
-                           pq.push({w,v});
-                       }
-                   } 
+    int primMST(vector<vector<vector<int>>> &adj) {
+       int V = adj.size();
+      
+       vector<bool>visited(V,false);
+       vector<pair<int,int>>mst;
+       int mst_cost = 0;
+       typedef pair<int,pair<int,int>>p;
+       priority_queue< p,vector<p>,greater<p>>q;
+       q.push({0,{0,-1}});
+       
+       while(!q.empty()){
+           auto topElement = q.top();
+           q.pop();
+           
+           int wt = topElement.first;
+           int u = topElement.second.first;
+           int parent = topElement.second.second;
+           
+           if(visited[u]) continue;
+           
+           visited[u] = true;
+           mst_cost += wt;
+           mst.push_back({parent,0});
+           
+           for(auto &it:adj[u]){
+               int wt = it[1];
+               int ni = it[0];
+               
+               if(!visited[ni]){
+                   q.push({wt,{ni,u}});
                }
-              }
-              return Cost;
-        
+           }
+       }
+       return mst_cost;
     }
 };
