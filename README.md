@@ -10,8 +10,8 @@ Welcome to my DSA solutions portfolio! This repository contains my solved proble
 | Platform | Total Solved | Easy | Medium | Hard | Basic/School |
 | --- | --- | --- | --- | --- | --- |
 | LeetCode | 20 | 2 | 17 | 1 | - |
-| GeeksforGeeks | 53 | 18 | 29 | 5 | 1 |
-| **Total** | **73** | **20** | **46** | **6** | **1** |
+| GeeksforGeeks | 54 | 18 | 30 | 5 | 1 |
+| **Total** | **74** | **20** | **47** | **6** | **1** |
 
 ## Solved Problems
 
@@ -66,28 +66,29 @@ Welcome to my DSA solutions portfolio! This repository contains my solved proble
 | 47 | [k Largest Elements](https://practice.geeksforgeeks.org/problems/k-largest-elements4206/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_KLargestElements.cpp) |
 | 48 | [Kadane's Algorithm](https://practice.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_KadanesAlgorithm.cpp) |
 | 49 | [Knapsack with Duplicate Items](https://practice.geeksforgeeks.org/problems/knapsack-with-duplicate-items4201/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_KnapsackWithDuplicateItems.cpp) |
-| 50 | [Kth Smallest](https://practice.geeksforgeeks.org/problems/kth-smallest-element5635/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_KthSmallest.cpp) |
-| 51 | [Majority Element](https://practice.geeksforgeeks.org/problems/majority-element-1587115620/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_MajorityElement.cpp) |
-| 52 | [Majority Element](https://practice.geeksforgeeks.org/problems/majority-vote/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_MajorityElement.cpp) |
-| 53 | [Max Consecutive 1's with K Flips](https://practice.geeksforgeeks.org/problems/maximize-number-of-1s0905/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_MaxConsecutive1sWithKFlips.cpp) |
-| 54 | [Maximum Product Subarray](https://practice.geeksforgeeks.org/problems/maximum-product-subarray3604/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_MaximumProductSubarray.cpp) |
-| 55 | [Maximum Triplet product](https://practice.geeksforgeeks.org/problems/maximum-triplet-product--170647/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_MaximumTripletProduct.cpp) |
-| 56 | [Merge Two BSTs](https://practice.geeksforgeeks.org/problems/merge-two-bst-s/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_MergeTwoBSTs.cpp) |
-| 57 | [Min Cost Climbing Stairs](https://practice.geeksforgeeks.org/problems/min-cost-climbing-stairs/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_MinCostClimbingStairs.cpp) |
-| 58 | [Minimize the Heights](https://practice.geeksforgeeks.org/problems/minimize-the-heights3351/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_MinimizeTheHeights.cpp) |
-| 59 | [Minimum Spanning Tree](https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_MinimumSpanningTree.cpp) |
-| 60 | [Next Greater in Circular Array](https://practice.geeksforgeeks.org/problems/next-greater-element/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_NextGreaterInCircularArray.cpp) |
-| 61 | [Replace with Least Greater on Right](https://practice.geeksforgeeks.org/problems/replace-every-element-with-the-least-greater-element-on-its-right/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_ReplaceWithLeastGreaterOnRight.cpp) |
-| 62 | [Rotate a Linked List](https://practice.geeksforgeeks.org/problems/rotate-a-linked-list/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_RotateALinkedList.cpp) |
-| 63 | [Rotate Array](https://practice.geeksforgeeks.org/problems/rotate-array-by-n-elements-1587115621/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_RotateArray.cpp) |
-| 64 | [Subarrays Product Less than K](https://practice.geeksforgeeks.org/problems/count-the-subarrays-having-product-less-than-k1708/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_SubarraysProductLessThanK.cpp) |
-| 65 | [Sum of Subarrays](https://practice.geeksforgeeks.org/problems/sum-of-subarrays2229/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_SumOfSubarrays.cpp) |
-| 66 | [Topological Sort](https://practice.geeksforgeeks.org/problems/topological-sort/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_TopologicalSort.cpp) |
-| 67 | [Tree Boundary Traversal](https://practice.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_TreeBoundaryTraversal.cpp) |
-| 68 | [Binary Tree to DLL](https://practice.geeksforgeeks.org/problems/binary-tree-to-dll/1) | GeeksforGeeks | Hard | C_CPP | [Code](./GFG/Hard/0_BinaryTreeToDLL.cpp) |
-| 69 | [Clone List with Next and Random](https://practice.geeksforgeeks.org/problems/clone-a-linked-list-with-next-and-random-pointer/1) | GeeksforGeeks | Hard | C_CPP | [Code](./GFG/Hard/0_CloneListWithNextAndRandom.cpp) |
-| 70 | [Largest BST Subtree](https://practice.geeksforgeeks.org/problems/largest-bst/1) | GeeksforGeeks | Hard | C_CPP | [Code](./GFG/Hard/0_LargestBSTSubtree.cpp) |
-| 71 | [Linked List Group Reverse](https://practice.geeksforgeeks.org/problems/reverse-a-linked-list-in-groups-of-given-size/1) | GeeksforGeeks | Hard | C_CPP | [Code](./GFG/Hard/0_LinkedListGroupReverse.cpp) |
-| 72 | [Min Distance Between Two in Binary Tree](https://practice.geeksforgeeks.org/problems/min-distance-between-two-given-nodes-of-a-binary-tree/1) | GeeksforGeeks | Hard | C_CPP | [Code](./GFG/Hard/0_MinDistanceBetweenTwoInBinaryTree.cpp) |
-| 73 | [Reverse Array in Groups](https://practice.geeksforgeeks.org/problems/reverse-array-in-groups0255/1) | GeeksforGeeks | Basic | C_CPP | [Code](./GFG/Basic/0_ReverseArrayInGroups.cpp) |
+| 50 | [Kruskal's Algorithm](https://practice.geeksforgeeks.org/problems/minimum-spanning-tree-kruskals-algorithm/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_KruskalsAlgorithm.cpp) |
+| 51 | [Kth Smallest](https://practice.geeksforgeeks.org/problems/kth-smallest-element5635/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_KthSmallest.cpp) |
+| 52 | [Majority Element](https://practice.geeksforgeeks.org/problems/majority-element-1587115620/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_MajorityElement.cpp) |
+| 53 | [Majority Element](https://practice.geeksforgeeks.org/problems/majority-vote/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_MajorityElement.cpp) |
+| 54 | [Max Consecutive 1's with K Flips](https://practice.geeksforgeeks.org/problems/maximize-number-of-1s0905/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_MaxConsecutive1sWithKFlips.cpp) |
+| 55 | [Maximum Product Subarray](https://practice.geeksforgeeks.org/problems/maximum-product-subarray3604/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_MaximumProductSubarray.cpp) |
+| 56 | [Maximum Triplet product](https://practice.geeksforgeeks.org/problems/maximum-triplet-product--170647/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_MaximumTripletProduct.cpp) |
+| 57 | [Merge Two BSTs](https://practice.geeksforgeeks.org/problems/merge-two-bst-s/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_MergeTwoBSTs.cpp) |
+| 58 | [Min Cost Climbing Stairs](https://practice.geeksforgeeks.org/problems/min-cost-climbing-stairs/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_MinCostClimbingStairs.cpp) |
+| 59 | [Minimize the Heights](https://practice.geeksforgeeks.org/problems/minimize-the-heights3351/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_MinimizeTheHeights.cpp) |
+| 60 | [Minimum Spanning Tree](https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_MinimumSpanningTree.cpp) |
+| 61 | [Next Greater in Circular Array](https://practice.geeksforgeeks.org/problems/next-greater-element/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_NextGreaterInCircularArray.cpp) |
+| 62 | [Replace with Least Greater on Right](https://practice.geeksforgeeks.org/problems/replace-every-element-with-the-least-greater-element-on-its-right/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_ReplaceWithLeastGreaterOnRight.cpp) |
+| 63 | [Rotate a Linked List](https://practice.geeksforgeeks.org/problems/rotate-a-linked-list/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_RotateALinkedList.cpp) |
+| 64 | [Rotate Array](https://practice.geeksforgeeks.org/problems/rotate-array-by-n-elements-1587115621/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_RotateArray.cpp) |
+| 65 | [Subarrays Product Less than K](https://practice.geeksforgeeks.org/problems/count-the-subarrays-having-product-less-than-k1708/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_SubarraysProductLessThanK.cpp) |
+| 66 | [Sum of Subarrays](https://practice.geeksforgeeks.org/problems/sum-of-subarrays2229/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_SumOfSubarrays.cpp) |
+| 67 | [Topological Sort](https://practice.geeksforgeeks.org/problems/topological-sort/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_TopologicalSort.cpp) |
+| 68 | [Tree Boundary Traversal](https://practice.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/1) | GeeksforGeeks | Medium | C_CPP | [Code](./GFG/Medium/0_TreeBoundaryTraversal.cpp) |
+| 69 | [Binary Tree to DLL](https://practice.geeksforgeeks.org/problems/binary-tree-to-dll/1) | GeeksforGeeks | Hard | C_CPP | [Code](./GFG/Hard/0_BinaryTreeToDLL.cpp) |
+| 70 | [Clone List with Next and Random](https://practice.geeksforgeeks.org/problems/clone-a-linked-list-with-next-and-random-pointer/1) | GeeksforGeeks | Hard | C_CPP | [Code](./GFG/Hard/0_CloneListWithNextAndRandom.cpp) |
+| 71 | [Largest BST Subtree](https://practice.geeksforgeeks.org/problems/largest-bst/1) | GeeksforGeeks | Hard | C_CPP | [Code](./GFG/Hard/0_LargestBSTSubtree.cpp) |
+| 72 | [Linked List Group Reverse](https://practice.geeksforgeeks.org/problems/reverse-a-linked-list-in-groups-of-given-size/1) | GeeksforGeeks | Hard | C_CPP | [Code](./GFG/Hard/0_LinkedListGroupReverse.cpp) |
+| 73 | [Min Distance Between Two in Binary Tree](https://practice.geeksforgeeks.org/problems/min-distance-between-two-given-nodes-of-a-binary-tree/1) | GeeksforGeeks | Hard | C_CPP | [Code](./GFG/Hard/0_MinDistanceBetweenTwoInBinaryTree.cpp) |
+| 74 | [Reverse Array in Groups](https://practice.geeksforgeeks.org/problems/reverse-array-in-groups0255/1) | GeeksforGeeks | Basic | C_CPP | [Code](./GFG/Basic/0_ReverseArrayInGroups.cpp) |
 <!-- COMMITDSA_END -->
